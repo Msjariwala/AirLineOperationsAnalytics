@@ -1,0 +1,23 @@
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+logs/*
+!logs/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+.DS_Store
