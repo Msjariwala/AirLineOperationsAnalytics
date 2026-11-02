@@ -1,5 +1,7 @@
-# Environment variables
+# Environment variables and secrets
 .env
+*.env
+!.env.example
 
 # Python
 __pycache__/
@@ -10,14 +12,17 @@ venv/
 # Jupyter
 .ipynb_checkpoints/
 
-# Logs
-logs/*
-!logs/.gitkeep
-
 # IDE
 .vscode/
 .idea/
 
+# Logs
+logs/
+*.log
+
 # Temporary files
 *.tmp
 .DS_Store
+
+# Azure local settings
+local.settings.json
